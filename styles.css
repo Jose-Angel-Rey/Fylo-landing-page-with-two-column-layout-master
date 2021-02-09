@@ -10,12 +10,6 @@ Gmail: dev.joseangel.rey@gmail.com*/
   padding: 0px;
   box-sizing: border-box;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-img {
-  max-width: 100%;
-}
 /* ----------------------
  Header-start */
 .main-header {
@@ -367,6 +361,7 @@ Footer-start*/
 .footer-nav-two {
   display: flex;
   flex-flow: column nowrap;
+  list-style-type: none;
 }
 .footer-nav-one__items,
 .footer-nav-two__items {
